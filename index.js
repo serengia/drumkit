@@ -14,7 +14,7 @@ const addActiveClass = (el) => {
 };
 
 const chooseAndPlaySound = (pressedKey) => {
-  const key = pressedKey;
+  const key = pressedKey?.toLowerCase();
   switch (key) {
     case "d":
       playSound("./sounds/tom-1.mp3");

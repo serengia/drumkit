@@ -61,6 +61,13 @@ h1 {
   background-color: white;
 }
 
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 footer {
   color: #dbedf3;
   font-family: sans-serif;
